@@ -5,11 +5,10 @@ public class odd_even {
         int num;
         System.out.println("Enter a NUMBER");
         Scanner scan = new Scanner(System.in);
-        num= scan.nextInt();
-        if ((num %2)==0) {
+        num = scan.nextInt();
+        if ((num % 2) == 0) {
             System.out.println("EVEN");
-        }
-        else {
+        } else {
             System.out.println("ODD");
         }
 
